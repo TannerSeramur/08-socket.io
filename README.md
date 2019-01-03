@@ -1,12 +1,12 @@
 ![CF](http://i.imgur.com/7v5ASc8.png) LAB
 =================================================
 
-## Project Name
+## 08-socket.io
 
 ### Author: Tanner Seramur
 
 ### Links and Resources
-* [repo](http://xyz.com)
+* [repo](https://github.com/TannerSeramur/08-socket.io)
 * [travis](http://xyz.com)
 
 
