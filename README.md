@@ -3,40 +3,41 @@
 
 ## Project Name
 
-### Author: Student/Group Name
+### Author: Tanner Seramur
 
 ### Links and Resources
 * [repo](http://xyz.com)
 * [travis](http://xyz.com)
-* [back-end](http://xyz.com)
-* [front-end](http://xyz.com)
+
 
 ### Modules
-#### `modulename.js`
+#### `Socket.io`
+#### `Socket.io Client`
+#### `util`
+#### `EventEmitter`
+#### `fs`
 ##### Exported Values and Methods
 
-###### `foo(thing) -> string`
-Usage Notes or examples
+###### `readFile = ('test.txt') =>`
+reads and grabs the content of a file
 
-###### `bar(array) -> array`
-Usage Notes or examples
+###### `updateText = (file, text) =>`
+Updates text changing all letters to uppercase
 
 ### Setup
 #### `.env` requirements
-* `PORT` - Port Number
-* `MONGODB_URI` - URL to the running mongo instance/db
+* `PORT` - 3001
 
 #### Running the app
-* `npm start`
-* Endpoint: `/foo/bar/`
-  * Returns a JSON object with abc in it.
-* Endpoint: `/bing/zing/`
-  * Returns a JSON object with xyz in it.
+* Start all servers with nodemon, `server.js`, `read.js`, `write.js`, `logger.js`
+* Endpoint: `/`
+  * Converts the `test.text` file to all uppercase letter.
+
 
 #### Tests
 * How do you run tests?
 * What assertions were made?
 * What assertions need to be / should be made?
 
-#### UML
-Link to an image of the UML for your application and response to events
+#### Notes
+Pair Programmed this with Jon Diquattro
